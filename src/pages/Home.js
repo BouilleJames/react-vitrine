@@ -48,7 +48,7 @@ const Home = () => {
                 bottom: 250,
               }}
             >
-              FS AGENCY
+              PortFolio JB
             </motion.h1>
             <motion.h2
               drag

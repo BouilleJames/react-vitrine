@@ -37,42 +37,42 @@ const Contact = () => {
         <div className="contact-infos">
           <div className="address">
             <div className="content">
-              <h4>adresse</h4>
-              <p>12 rue Laplace</p>
-              <p>64200 Biarritz</p>
+              <h4>Adresse</h4>
+              <p>62 avenue Pierre Semard</p>
+              <p>06130 Grasse</p>
             </div>
           </div>
           <div className="phone">
             <div className="content">
-              <h4>téléphone</h4>
+              <h4>Téléphone</h4>
               <CopyToClipboard text="0642844284" className="hover">
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
                   onClick={() => alert("Téléphone copié !")}
                 >
-                  06 42 84 42 84
+                  06 60 72 67 10
                 </p>
               </CopyToClipboard>
             </div>
           </div>
           <div className="email">
             <div className="content">
-              <h4>email</h4>
-              <CopyToClipboard text="fsagency@gmail.com" className="hover">
+              <h4>Email</h4>
+              <CopyToClipboard text="james.bouille@gmail.com" className="hover">
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
                   onClick={() => alert("Email copié !")}
                 >
-                  fsagency@gmail.com
+                  james.bouille@gmail.com
                 </p>
               </CopyToClipboard>
             </div>
           </div>
           <SocialNetwork />
           <div className="credits">
-            <p>From Scratch - 2022</p>
+            <p>From JB - 2023</p>
           </div>
         </div>
         <Buttons left={"/projet-4"} />

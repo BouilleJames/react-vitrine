@@ -7,13 +7,13 @@
     content: "";
     height: 700px;
     width: 700px;
-    background: $color-3;
+    background: rgb(246, 255, 0);
     border-radius: 50%;
     position: absolute;
     top: 150px;
     right: -460px;
     z-index: -10;
-    animation: contactAnim 25s alternate infinite;
+    animation: contactAnim 21s alternate infinite;
 
     @media screen and (max-width: 840px) {
       height: 400px;
@@ -27,7 +27,7 @@
 
     @keyframes contactAnim {
       50% {
-        transform: scale(1.4);
+        transform: scale(1.8);
       }
       100% {
         transform: scale(1);
@@ -80,8 +80,8 @@
         background: none;
         font-family: $font-1;
         font-size: 1.2rem;
-        border-bottom: 1px solid $color-2;
-        border-radius: 5px;
+        border-bottom: 3px solid $color-1;
+        border-radius: 20px;
 
         @media screen and (min-width: 1200px) {
           font-size: 1.5rem;
