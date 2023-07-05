@@ -170,8 +170,8 @@
       .img-container {
         border-radius: 5px;
         box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.26);
-        width: 600px;
-        height: 380px;
+        width: 750px;
+        height: 400px;
         overflow: hidden;
         position: relative;
 
@@ -195,6 +195,7 @@
         }
 
         img {
+          margin-top: 10px;
           overflow: hidden;
           object-fit: cover;
           object-position: 0%;
