@@ -68,6 +68,19 @@ const Contact = () => {
                   james.bouille@gmail.com
                 </p>
               </CopyToClipboard>
+              <h4>Mon CV</h4>
+              <CopyToClipboard
+                text="https://cv-james-bouille.netlify.app/"
+                className="hover"
+              >
+                <p
+                  style={{ cursor: "pointer" }}
+                  className="clipboard"
+                  onClick={() => alert("Lien de Site CV-JB copié !")}
+                >
+                  https://cv-james-bouille.netlify.app/
+                </p>
+              </CopyToClipboard>
             </div>
           </div>
           <SocialNetwork />
