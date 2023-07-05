@@ -1,11 +1,11 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Casta",
-    date: "Janvier 2020",
-    languages: ["React", "Php", "Sass"],
+    title: "Drapeaux du monde",
+    date: "Juin 2023",
+    languages: ["React", "Sass"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "J'ai reproduit ce tuto de FromScratch pour voir comment il fonctionnait.",
     img: "./assets/img/projet-2.jpg",
     link: "http://www.google.com",
   },
