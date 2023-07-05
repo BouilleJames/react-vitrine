@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Drapeaux du monde",
+    title: "Flags of the world",
     date: "Juin 2023",
     languages: ["React", "Sass"],
     infos:
