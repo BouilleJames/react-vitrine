@@ -16,7 +16,7 @@ export const projectsData = [
     languages: ["React", "Sass"],
     infos:
       "J'ai reproduit ce tuto de FromScratch pour voir comment il fonctionnait.",
-    img: "./assets/img/projet-2.jpg",
+    img: "./assets/img/projet-2.png",
     link: "https://resilient-meringue-414ca0.netlify.app/",
   },
   {
@@ -27,26 +27,25 @@ export const projectsData = [
     infos:
       "J'aime bien ce portfolio, je l'ai fait avec React et Sass, je l'ai trouvé sur FromScratch et je l'ai reproduit.Je compte bien le modifier pour le rendre plus personnel.",
     img: "./assets/img/projet-3.png",
-    link: "http://www.google.com",
+    link: "https://portfolio-james-b.netlify.app/",
   },
   {
     id: 4,
     title: "What Watch",
     date: "Juillet 2023",
-    languages: ["Wordpress", "Php", "React"],
+    languages: ["Javascript"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-3.jpg",
-    link: "http://www.google.com",
+      "Un PWA qui permet de savoir quel film regarder. Il est fait en Javascript. Il est responsive et fonctionne sur mobile.(En cours de réalisation).",
+    img: "./assets/img/WhatWatch.png",
+    link: "https://pwa-what-watch.netlify.app/",
   },
   {
-    id: 4,
-    title: "Creative Dev",
+    id: 5,
+    title: "Creative",
     date: "Juillet 2020",
-    languages: ["Vue", "Php"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-4.jpg",
-    link: "http://www.google.com",
+    languages: ["???Je sais pas encore"],
+    infos: "Je cherche une idée de projet :) A bientôt !!! ",
+    img: "./assets/img/buddha.jpg",
+    link: "https://cv-james-bouille.netlify.app/",
   },
 ];
