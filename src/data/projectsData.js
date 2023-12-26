@@ -42,7 +42,7 @@ export const projectsData = [
   {
     id: 5,
     title: "Creative",
-    date: "Juillet 2020",
+    date: "Juillet 2023",
     languages: ["???Je sais pas encore"],
     infos: "Je cherche une idée de projet :) A bientôt !!! ",
     img: "./assets/img/buddha.jpg",
